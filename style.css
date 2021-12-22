@@ -44,3 +44,41 @@ border-radius: 0.5rem;
 border: 1px solid var(--primary-color);
 
 }
+
+.list-normal
+{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.navigation 
+{
+   background-color: var(--primary-color
+   );
+   padding: 1rem;
+   border-bottom-left-radius: 1rem;
+
+}
+.nav-brand{
+    color:white;
+    font-weight: bold;
+
+
+}
+.navigation .link{
+ color: white;
+}
+
+.nav-pills
+{
+    text-align: right;
+}
+
+.navigation .active-link
+{
+    font-weight: bold;
+}
