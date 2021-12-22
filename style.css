@@ -82,3 +82,14 @@ border: 1px solid var(--primary-color);
 {
     font-weight: bold;
 }
+
+.hero
+{
+    padding: 2rem;
+}
+.hero .hero-image
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
