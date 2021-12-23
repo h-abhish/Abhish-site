@@ -93,3 +93,8 @@ border: 1px solid var(--primary-color);
     display: block;
     margin: auto;
 }
+.hero .hero-heading
+{
+    font-weight: bold;
+    color: var(--primary-color);
+}
