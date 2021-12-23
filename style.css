@@ -1,100 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
-:root{
---primary-color:#5B21B6;
+
+:root {
+    --primary-color: #5B21B6;
+    --ow-color:#e2e8f0;
+
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
-hr{
+
+hr {
     margin: 2rem 0rem;
 }
 
-.container
-{
+.container {
     padding-left: 1rem;
     padding-right: 1rem;
 
 }
 
-.container-center{
-     max-width: 600px;
+.container-center {
+    max-width: 600px;
     margin: auto;
 }
 
-.link{
-  text-decoration: none;
+.link {
+    text-decoration: none;
     padding: 0.5rem 1rem;
 
 }
 
-.link-primary
-{
-  background-color:var(--primary-color);
+.link-primary {
+    background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
 
-    
-}
-
-.link-secondary{
-
-color:var(--primary-color);
-border-radius: 0.5rem;
-border: 1px solid var(--primary-color);
 
 }
 
-.list-normal
-{
+.link-secondary {
+
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+
+.list-normal {
     list-style: none;
 }
 
-.list-item-inline{
+.list-item-inline {
     display: inline;
     padding: 0rem 1rem;
 }
 
-.navigation 
-{
-   background-color: var(--primary-color
-   );
-   padding: 1rem;
-   border-bottom-left-radius: 1rem;
+.navigation {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
 
 }
-.nav-brand{
-    color:white;
+
+.nav-brand {
+    color: white;
     font-weight: bold;
 
 
 }
-.navigation .link{
- color: white;
+
+.navigation .link {
+    color: white;
 }
 
-.nav-pills
-{
+.nav-pills {
     text-align: right;
 }
 
-.navigation .active-link
-{
+.navigation .active-link {
     font-weight: bold;
 }
 
-.hero
-{
+.hero {
     padding: 2rem;
 }
-.hero .hero-image
-{
+
+.hero .hero-image {
     max-width: 350px;
     display: block;
     margin: auto;
 }
-.hero .hero-heading
-{
+
+.hero .hero-heading {
     font-weight: bold;
     color: var(--primary-color);
+}
+
+.section{
+    padding: 2rem;
+}
+.section h1
+{
+
+    text-align: center;
+
+}
+.ow
+{
+    background-color: var(--ow-color);
 }
