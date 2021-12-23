@@ -121,3 +121,7 @@ color: white;
 {
     color: white;
 }
+.social{
+    max-width: 50px;
+  margin: auto;
+}
